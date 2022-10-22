@@ -10,11 +10,8 @@ public class Questao02 {
         String pala = ler.nextLine();
         System.out.println("Introduza o nº de vezes que a palavra deve repetir");
         int num = ler.nextInt();
-        
         for (int i =1; i<=num; i=i+1){
             System.out.println(pala);
-
-            
         }
     ler.close();
     }
