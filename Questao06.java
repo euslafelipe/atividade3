@@ -1,4 +1,4 @@
-package atividade3;
+package atividades.atividade3;
 
 import java.util.Scanner;
 
@@ -33,7 +33,7 @@ public class Questao06 {
                         menor = valor[i];  
                     }  
                 }
-                int mediat = media = soma /5;
+                int mediat = media + soma /5;
                 System.out.println("Maior valor = "+ maior);  
                 System.out.println("Menor valor = "+ menor);  
                 System.out.println("a soma é:"+ soma);
