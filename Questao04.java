@@ -10,10 +10,11 @@ public class Questao04 {
                 int chances = 5;
                do{
                 System.out.println("Digite sua senha: ");
-                String senha = new String(ler.nextLine());
+                String senha = ler.nextLine();
                 chances = chances - 1;
                 if(senha.equals("Java-2022")){
                     System.out.println("Palavra ok");
+                    break;
                 }else
                     System.out.println("Palavra Errada");
                 }while(chances >0);

@@ -14,9 +14,9 @@ public class Questao01 {
         for (int x = 0; x < 10; x++) {
            int total = contar * ++multi;
             System.out.println(contar + " x " + multi + " = " + total);
-        
 
-         
+
+
 
         }
         ler.close();
